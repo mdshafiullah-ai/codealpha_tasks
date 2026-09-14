@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <span class="material-icons-round logo-icon">translate</span>
+                <h1>Language Translator</h1>
+            </div>
+            <p class="tagline">Powered by Google Cloud Translation API</p>
+        </header>
+
+        <!-- Language selector bar -->
+        <div class="lang-bar">
+            <div class="lang-select-group">
+                <label for="source-lang">From</label>
+                <select id="source-lang">
+                    <option value="auto" selected>Auto-detect</option>
+                </select>
+            </div>
+
+            <button id="swap-btn" class="swap-btn" title="Swap languages" aria-label="Swap languages">
+                <span class="material-icons-round">swap_horiz</span>
+            </button>
+
+            <div class="lang-select-group">
+                <label for="target-lang">To</label>
+                <select id="target-lang">
+                    <option value="es" selected>Spanish</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Translation panels -->
+        <div class="panels">
+            <!-- Source panel -->
+            <div class="panel source-panel">
+                <div class="panel-header">
+                    <span class="panel-label">Source text</span>
+                    <div class="panel-actions">
+                        <button id="mic-btn" class="icon-btn" title="Speech-to-text (click to speak)" aria-label="Speech to text" style="display:none;">
+                            <span class="material-icons-round">mic</span>
+                        </button>
+                        <button id="clear-btn" class="icon-btn" title="Clear text" aria-label="Clear text">
+                            <span class="material-icons-round">close</span>
+                        </button>
+                    </div>
+                </div>
+                <textarea id="source-text" placeholder="Type or paste text here, or click the microphone to speak…" rows="7"></textarea>
+                <div class="char-count"><span id="char-count">0</span> / 5 000</div>
+            </div>
+
+            <!-- Result panel -->
+            <div class="panel result-panel">
+                <div class="panel-header">
+                    <span class="panel-label">Translation</span>
+                    <div class="panel-actions">
+                        <button id="copy-btn" class="icon-btn" title="Copy translation" aria-label="Copy translation">
+                            <span class="material-icons-round">content_copy</span>
+                        </button>
+                    </div>
+                </div>
+                <div id="result-text" class="result-text" aria-live="polite">
+                    <span class="placeholder-text">Translation will appear here…</span>
+                </div>
+                <div id="detected-lang" class="detected-lang"></div>
+            </div>
+        </div>
+
+        <!-- Translate button -->
+        <button id="translate-btn" class="translate-btn">
+            <span class="material-icons-round">translate</span>
+            Translate
+        </button>
+
+        <!-- Error toast -->
+        <div id="error-toast" class="toast hidden" role="alert"></div>
+    </div>
+
+    <footer class="app-footer">
+        <p>CodeAlpha Internship Project &middot; Language Translation Tool</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
