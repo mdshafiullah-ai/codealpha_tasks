@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "category": "Shipping",
+    "question": "How long does standard shipping take?",
+    "answer": "Standard shipping typically takes 5-7 business days after your order is processed. Processing usually takes 1-2 business days."
+  },
+  {
+    "id": 2,
+    "category": "Shipping",
+    "question": "Do you offer express or expedited shipping?",
+    "answer": "Yes. Express shipping delivers in 2-3 business days and overnight shipping is available for select zip codes at checkout."
+  },
+  {
+    "id": 3,
+    "category": "Shipping",
+    "question": "How much does shipping cost?",
+    "answer": "Standard shipping is free on orders over $50. Orders under $50 have a flat $5.99 shipping fee. Express rates are calculated at checkout."
+  },
+  {
+    "id": 4,
+    "category": "Shipping",
+    "question": "How can I track my order?",
+    "answer": "Once your order ships, you will receive a tracking number by email. You can also track your order from the My Orders section of your account."
+  },
+  {
+    "id": 5,
+    "category": "Shipping",
+    "question": "Do you ship to PO boxes or APO addresses?",
+    "answer": "Yes, we ship to PO boxes and APO/FPO/DPO addresses via standard shipping. Express and overnight options may not be available for these addresses."
+  },
+  {
+    "id": 6,
+    "category": "Returns & Refunds",
+    "question": "What is your return policy?",
+    "answer": "We accept returns within 30 days of delivery for unused items in original packaging. Final sale and personalized items cannot be returned."
+  },
+  {
+    "id": 7,
+    "category": "Returns & Refunds",
+    "question": "How do I start a return?",
+    "answer": "Go to My Orders, select the item you want to return, and click Start Return. Print the prepaid label and drop off the package at any authorized carrier location."
+  },
+  {
+    "id": 8,
+    "category": "Returns & Refunds",
+    "question": "When will I receive my refund?",
+    "answer": "Refunds are processed within 5-7 business days after we receive and inspect your return. The amount will appear on your original payment method."
+  },
+  {
+    "id": 9,
+    "category": "Returns & Refunds",
+    "question": "Can I exchange an item instead of returning it?",
+    "answer": "Yes. During the return flow, choose Exchange and select your preferred size or color. If the replacement is unavailable, we will issue a refund instead."
+  },
+  {
+    "id": 10,
+    "category": "Returns & Refunds",
+    "question": "Who pays for return shipping?",
+    "answer": "Return shipping is free for defective or incorrect items. For change-of-mind returns, a $6.99 return shipping fee is deducted from your refund unless you have Store Plus membership."
+  },
+  {
+    "id": 11,
+    "category": "Payment",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, Mastercard, American Express, Discover, PayPal, Apple Pay, Google Pay, and Shop Pay. We also offer Buy Now Pay Later through Klarna and Afterpay."
+  },
+  {
+    "id": 12,
+    "category": "Payment",
+    "question": "Is it safe to use my credit card on your website?",
+    "answer": "Yes. Our checkout is secured with SSL encryption and we are PCI DSS compliant. We never store full credit card numbers on our servers."
+  },
+  {
+    "id": 13,
+    "category": "Payment",
+    "question": "Can I use multiple gift cards on one order?",
+    "answer": "You can apply up to two gift cards per order. Any remaining balance can be paid with a credit card, debit card, or PayPal."
+  },
+  {
+    "id": 14,
+    "category": "Payment",
+    "question": "Why was my payment declined?",
+    "answer": "Payments may be declined due to insufficient funds, incorrect billing details, or bank security holds. Try another payment method or contact your bank for more information."
+  },
+  {
+    "id": 15,
+    "category": "Payment",
+    "question": "Do you offer installment or pay-over-time options?",
+    "answer": "Yes. At checkout, eligible orders can be split into four interest-free payments with Klarna or Afterpay. Approval is subject to provider terms."
+  },
+  {
+    "id": 16,
+    "category": "Orders",
+    "question": "How do I cancel my order?",
+    "answer": "You can cancel within 30 minutes of placing your order from My Orders. After that, the order may already be processing and cannot be cancelled."
+  },
+  {
+    "id": 17,
+    "category": "Orders",
+    "question": "Can I change my shipping address after placing an order?",
+    "answer": "Address changes are possible within 30 minutes of checkout if the order has not shipped. Contact support immediately if you need help updating your address."
+  },
+  {
+    "id": 18,
+    "category": "Orders",
+    "question": "Can I modify items in my order after checkout?",
+    "answer": "Item changes are not supported after checkout. Cancel the order within 30 minutes if eligible and place a new order with the correct items."
+  },
+  {
+    "id": 19,
+    "category": "Orders",
+    "question": "I received the wrong item. What should I do?",
+    "answer": "We apologize for the error. Start a return for the incorrect item and select Received Wrong Item. We will send a replacement or issue a full refund including shipping."
+  },
+  {
+    "id": 20,
+    "category": "Orders",
+    "question": "My order arrived damaged. How do I get help?",
+    "answer": "Report the damage within 7 days through My Orders. Upload photos of the item and packaging and we will arrange a replacement or refund at no cost to you."
+  },
+  {
+    "id": 21,
+    "category": "Account",
+    "question": "How do I create an account?",
+    "answer": "Click Sign Up at the top of the page and enter your email and password. You can also create an account during checkout."
+  },
+  {
+    "id": 22,
+    "category": "Account",
+    "question": "I forgot my password. How do I reset it?",
+    "answer": "Click Sign In, then Forgot Password, and enter your email. We will send a secure link to reset your password within a few minutes."
+  },
+  {
+    "id": 23,
+    "category": "Account",
+    "question": "How do I update my email or phone number?",
+    "answer": "Sign in and go to Account Settings. Update your contact details and verify the new email or phone number when prompted."
+  },
+  {
+    "id": 24,
+    "category": "Account",
+    "question": "How do I delete my account?",
+    "answer": "Go to Account Settings, scroll to Privacy, and select Delete Account. This action is permanent and removes your order history and saved preferences."
+  },
+  {
+    "id": 25,
+    "category": "Account",
+    "question": "What is Store Plus membership?",
+    "answer": "Store Plus is our $9.99/month membership offering free express shipping, free returns, early access to sales, and exclusive member discounts."
+  },
+  {
+    "id": 26,
+    "category": "Products",
+    "question": "How do I find my size?",
+    "answer": "Each product page includes a size guide with measurements. You can also use our Fit Finder tool for personalized size recommendations."
+  },
+  {
+    "id": 27,
+    "category": "Products",
+    "question": "Are your products authentic?",
+    "answer": "Yes. We source directly from authorized brands and distributors. Every item is inspected before shipping and backed by our authenticity guarantee."
+  },
+  {
+    "id": 28,
+    "category": "Products",
+    "question": "How do I know if an item is in stock?",
+    "answer": "In-stock items show Add to Cart on the product page. Out-of-stock items display Notify Me so you can receive an alert when it is available again."
+  },
+  {
+    "id": 29,
+    "category": "Products",
+    "question": "Do product prices include tax?",
+    "answer": "Listed prices do not include tax. Applicable sales tax or VAT is calculated at checkout based on your shipping address."
+  },
+  {
+    "id": 30,
+    "category": "Products",
+    "question": "Can I request a product that is out of stock?",
+    "answer": "Click Notify Me on the product page to join the waitlist. We will email you when the item is back in stock, usually within 2-4 weeks."
+  },
+  {
+    "id": 31,
+    "category": "Promotions",
+    "question": "How do I apply a promo code?",
+    "answer": "Enter your code in the Promo Code field at checkout and click Apply. Only one promo code can be used per order unless stated otherwise."
+  },
+  {
+    "id": 32,
+    "category": "Promotions",
+    "question": "Why is my coupon code not working?",
+    "answer": "Coupons may expire, exclude sale items, or require a minimum purchase. Check the offer terms and ensure the code is entered exactly as shown."
+  },
+  {
+    "id": 33,
+    "category": "Promotions",
+    "question": "Do you price match competitors?",
+    "answer": "We price match identical items from authorized retailers within 14 days of purchase. Submit a price match request with proof of the lower price."
+  },
+  {
+    "id": 34,
+    "category": "Promotions",
+    "question": "How do I use reward points?",
+    "answer": "Earn 1 point per dollar spent. Redeem 100 points for $5 off at checkout. Points expire 12 months after they are earned if unused."
+  },
+  {
+    "id": 35,
+    "category": "Promotions",
+    "question": "Can I combine multiple discounts on one order?",
+    "answer": "Only one sitewide promotion or coupon can be applied per order. Reward points and gift cards can be combined with most promotions."
+  },
+  {
+    "id": 36,
+    "category": "Customer Service",
+    "question": "How can I contact customer support?",
+    "answer": "Reach us via live chat on our website, email support@shopstore.com, or call 1-800-555-0199 Monday through Friday, 9 AM to 6 PM EST."
+  },
+  {
+    "id": 37,
+    "category": "Customer Service",
+    "question": "What are your customer service hours?",
+    "answer": "Phone and live chat support are available Monday to Friday, 9 AM to 6 PM EST, and Saturday, 10 AM to 4 PM EST. Email support responds within 24 hours."
+  },
+  {
+    "id": 38,
+    "category": "Customer Service",
+    "question": "Do you have a physical store I can visit?",
+    "answer": "We operate select retail locations in major cities. Use our Store Locator to find hours, directions, and in-store pickup availability."
+  },
+  {
+    "id": 39,
+    "category": "Customer Service",
+    "question": "Can I buy a gift card?",
+    "answer": "Yes. Digital and physical gift cards are available in amounts from $25 to $500. Digital cards are delivered by email within minutes."
+  },
+  {
+    "id": 40,
+    "category": "Customer Service",
+    "question": "Do you offer gift wrapping?",
+    "answer": "Gift wrapping is available at checkout for $4.99 per item. You can include a personalized message printed on a gift note."
+  },
+  {
+    "id": 41,
+    "category": "International",
+    "question": "Do you ship internationally?",
+    "answer": "We ship to over 40 countries. International shipping rates and delivery times are shown at checkout based on your destination."
+  },
+  {
+    "id": 42,
+    "category": "International",
+    "question": "Will I have to pay customs or import duties?",
+    "answer": "International orders may be subject to customs fees, import duties, or taxes charged by your country. These are the responsibility of the recipient."
+  },
+  {
+    "id": 43,
+    "category": "International",
+    "question": "Can I return an international order?",
+    "answer": "International returns are accepted within 30 days. Return shipping costs are deducted from your refund unless the return is due to our error."
+  },
+  {
+    "id": 44,
+    "category": "Security & Privacy",
+    "question": "How is my personal data protected?",
+    "answer": "We use industry-standard encryption and follow GDPR and CCPA requirements. Read our Privacy Policy for details on data collection and your rights."
+  },
+  {
+    "id": 45,
+    "category": "Security & Privacy",
+    "question": "How do I unsubscribe from marketing emails?",
+    "answer": "Click Unsubscribe at the bottom of any marketing email or update your email preferences in Account Settings under Notifications."
+  }
+]
