@@ -1,0 +1,11 @@
+# ── Core ──────────────────────────────
+ultralytics>=8.2.0        # YOLOv8 detection
+deep-sort-realtime>=1.3.2 # Deep SORT multi-object tracking
+opencv-python>=4.8.0      # Video capture & display
+numpy>=1.24.0             # Array operations
+
+# ── Deep SORT appearance embedder ─────
+# deep-sort-realtime uses a MobileNet embedder by default;
+# it pulls in torch/torchvision automatically.
+# If you want a lighter CPU-only install, add:
+#   --extra-index-url https://download.pytorch.org/whl/cpu
